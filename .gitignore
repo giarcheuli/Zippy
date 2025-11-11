@@ -1,0 +1,36 @@
+# Build artifacts
+.build/
+*.o
+*.dSYM
+
+# Xcode
+*.xcworkspace/
+*.xcodeproj/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Distribution files
+*.dmg
+Zippy.app/
+
+# Swift Package Manager
+Package.resolved
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# IDE
+.vscode/
+.idea/
+
+# Test coverage
+*.profraw
+*.profdata
