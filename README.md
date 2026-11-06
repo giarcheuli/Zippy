@@ -2,11 +2,15 @@
 
 A modern, native macOS application for managing ZIP archives with a beautiful SwiftUI interface.
 
+## Portfolio context
+
+A supporting personal project built with AI assistance. My focus is workflow definition, documentation, and delivery validation. The repository includes [tests](Tests) and an [MIT license](LICENSE). A fresh-install, signing, and notarization check has not been performed in this portfolio pass.
+
 ## Features
 
-- �️ **Dual-pane Interface**: Browse files on the left, preview ZIP contents on the right
+- **Dual-pane Interface**: Browse files on the left, preview ZIP contents on the right
 - 📦 **Create Archives**: Compress files and folders into ZIP archives
-- � **Extract Archives**: Unzip archives to any location
+- **Extract Archives**: Unzip archives to any location
 - 🎯 **Drag & Drop**: Drag files from Finder to create or extract archives
 - ⌨️ **Keyboard Shortcuts**: Full keyboard navigation and shortcuts
 - 🎨 **Modern UI**: Native macOS design with SwiftUI
@@ -24,7 +28,7 @@ A modern, native macOS application for managing ZIP archives with a beautiful Sw
 
 ### Option 1: Pre-built DMG (Recommended)
 
-1. Download `Zippy-1.0.0.dmg` from the releases
+1. Download `Zippy-1.0.0.dmg` from the [v1.0.0 release](https://github.com/giarcheuli/Zippy/releases/tag/v1.0.0)
 2. Open the DMG file
 3. Drag `Zippy.app` to your Applications folder
 4. Launch Zippy from Applications or Spotlight
@@ -32,7 +36,7 @@ A modern, native macOS application for managing ZIP archives with a beautiful Sw
 ### Option 2: Build from Source
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/giarcheuli/Zippy.git
 cd Zippy
 swift build --configuration release
 ./build_dmg.sh  # Creates the DMG package
@@ -75,7 +79,7 @@ Built with:
 ### Building from Source
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/giarcheuli/Zippy.git
 cd Zippy
 swift build --configuration release
 ```
